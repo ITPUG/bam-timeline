@@ -1,0 +1,60 @@
+body {
+font-size:16px;
+font-family:'Roboto',sans-serif
+}
+img {
+max-width:100%
+}
+h1,h2,h3,h4,h5,h6 {
+font-family:'Roboto',sans-serif;
+}
+.item {
+padding-top:100px;
+min-height:150px;
+position:relative
+}
+.item:before,.last-item:after {
+background:#fff;
+border:8px solid #CACCCE;
+border-radius:50%;
+width:30px;
+height:30px;
+display:inline-block;
+content:"";
+margin-left:1rem;
+position:relative;
+z-index:1;
+left:calc(2% - 36px)
+}
+.vertical-line {
+width:8px;
+background-color:#CACCCE;
+position:absolute;
+left:calc(2% - 5px);
+top:0;
+bottom:0
+}
+.blue{
+  background-color:#CACCCE;
+}
+.item .card-panel {
+margin:0;
+margin:2rem 0 0 3rem
+}
+.item-date {
+margin-top:-60px;
+margin-left:4rem
+}
+.cv-title {
+margin-bottom:0;
+margin-left:calc(2% - 5px);
+line-height:190%
+}
+.cv-title span {
+padding:1rem
+}
+.last-item{
+padding-top:80px;
+height:70px;
+position:relative
+}
